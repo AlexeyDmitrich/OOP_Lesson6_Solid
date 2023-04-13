@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a32f586-4b68-47c5-9025-8c74db9bb25c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Solid1Srp1/src/solid/srp/Area.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="7a32f586-4b68-47c5-9025-8c74db9bb25c" name="Changes" comment="1st complete">
+      <change afterPath="$PROJECT_DIR$/Solid2Srp2/src/solid/repository/JsonSaver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solid2Srp2/src/solid/srp/views/ConsoleInput.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solid.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Solid.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solid1Srp1/src/solid/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solid1Srp1/src/solid/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solid1Srp1/src/solid/srp/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solid1Srp1/src/solid/srp/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solid2Srp2/src/solid/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solid2Srp2/src/solid/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solid2Srp2/src/solid/srp/models/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solid2Srp2/src/solid/srp/models/Order.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +69,14 @@
       <option name="presentableId" value="Default" />
       <updated>1670342361684</updated>
     </task>
+    <task id="LOCAL-00001" summary="1st complete">
+      <created>1681407044498</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681407044498</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -82,5 +89,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1st complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="1st complete" />
   </component>
 </project>
