@@ -4,22 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a32f586-4b68-47c5-9025-8c74db9bb25c" name="Changes" comment="3rd complete">
-      <change afterPath="$PROJECT_DIR$/HomeWork/Reportable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork/Reporter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork/Saveble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWork/Tester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork/Persister.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Persister.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Solid/Persister.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Solid/Persister.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Solid/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Solid/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Solid/solid/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Solid/solid/dip/PrintReport.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Solid/solid/dip/Report.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Solid/solid/dip/ReportItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Solid/solid/dip/Reportable.class" beforeDir="false" />
+    <list default="true" id="7a32f586-4b68-47c5-9025-8c74db9bb25c" name="Changes" comment="Homework base complete">
+      <change afterPath="$PROJECT_DIR$/homework2notes/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework2notes/src/main/java/ru/geekbrains/kamenev/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework2notes/src/main/java/ru/geekbrains/kamenev/controler/Creator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework2notes/src/main/java/ru/geekbrains/kamenev/controler/Noter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework2notes/src/main/java/ru/geekbrains/kamenev/exceptions/EmptyDataException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework2notes/src/main/java/ru/geekbrains/kamenev/exceptions/IncorrectDataTypeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework2notes/src/main/java/ru/geekbrains/kamenev/model/Note.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework2notes/src/main/java/ru/geekbrains/kamenev/model/NoteList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework2notes/src/main/java/ru/geekbrains/kamenev/view/Commands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework2notes/src/main/java/ru/geekbrains/kamenev/view/Input.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework2notes/src/main/java/ru/geekbrains/kamenev/view/Menu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +26,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -40,6 +37,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2IXyjlpR5Wiiy0oCtofHfRCnxiw" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -49,6 +53,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "jdk.selected.JAVA_MODULE": "1.8",
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
@@ -117,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681410061242</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Homework base complete">
+      <created>1681821000982</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681821000982</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -135,7 +147,8 @@
     <MESSAGE value="1st complete" />
     <MESSAGE value="2nd complete" />
     <MESSAGE value="3rd complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="3rd complete" />
+    <MESSAGE value="Homework base complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework base complete" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
