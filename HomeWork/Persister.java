@@ -1,11 +1,11 @@
-public class Persister{
-	private User user;
+public class Persister<T extends Saveble>{
+	private T item;
 	
-	public Persister(User user){
-		this.user = user;
+	public Persister(T item){
+		this.item = item;
 	}
 	
-	public void save(){
-		System.out.println("Save user: " + user.getName());
+	public void save(String info){
+		System.out.println("Save: \n" + info); // подробное текстовое описание целесообразно вынести в сохраняемые классы
 	}
 }

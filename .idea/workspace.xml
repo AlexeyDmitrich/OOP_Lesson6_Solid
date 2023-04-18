@@ -5,16 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a32f586-4b68-47c5-9025-8c74db9bb25c" name="Changes" comment="3rd complete">
-      <change afterPath="$PROJECT_DIR$/Solid7Dip/src/solid/dip/Reportable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/Reportable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/Reporter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/Saveble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HomeWork/Tester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solid.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Solid.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solid7Dip/src/solid/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solid7Dip/src/solid/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solid7Dip/src/solid/dip/PrintReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solid7Dip/src/solid/dip/PrintReport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solid7Dip/src/solid/dip/Report.java" beforeDir="false" afterPath="$PROJECT_DIR$/Solid7Dip/src/solid/dip/Report.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Solid/solid/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Solid/solid/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Solid/solid/isp/InternetPaymentService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Solid/solid/isp/Payable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Solid/solid/isp/TerminalPaymentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/Persister.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/Persister.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Solid/Persister.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Solid/Persister.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Solid/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Solid/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Solid/solid/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Solid/solid/dip/PrintReport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Solid/solid/dip/Report.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Solid/solid/dip/ReportItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Solid/solid/dip/Reportable.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +29,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -40,13 +45,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Solid" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="solid.Main" />
       <module name="Solid" />
@@ -62,6 +75,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -122,5 +136,9 @@
     <MESSAGE value="2nd complete" />
     <MESSAGE value="3rd complete" />
     <option name="LAST_COMMIT_MESSAGE" value="3rd complete" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
