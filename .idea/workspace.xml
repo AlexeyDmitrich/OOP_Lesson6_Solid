@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a32f586-4b68-47c5-9025-8c74db9bb25c" name="Changes" comment="Homework base complete">
-      <change afterPath="$PROJECT_DIR$/homework2notes/src/main/java/ru/geekbrains/kamenev/model/Saveble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework2notes/src/main/java/ru/geekbrains/kamenev/model/Saver.java" afterDir="false" />
+    <list default="true" id="7a32f586-4b68-47c5-9025-8c74db9bb25c" name="Changes" comment="Homework opt: todo edit note, saver">
+      <change afterPath="$PROJECT_DIR$/homework2notes/src/main/java/ru/geekbrains/kamenev/exceptions/NotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework2notes/src/main/java/ru/geekbrains/kamenev/model/NoteMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework2notes/src/main/java/ru/geekbrains/kamenev/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/homework2notes/src/main/java/ru/geekbrains/kamenev/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/homework2notes/src/main/java/ru/geekbrains/kamenev/controler/Noter.java" beforeDir="false" afterPath="$PROJECT_DIR$/homework2notes/src/main/java/ru/geekbrains/kamenev/controler/Noter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/homework2notes/src/main/java/ru/geekbrains/kamenev/model/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/homework2notes/src/main/java/ru/geekbrains/kamenev/model/Note.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework2notes/src/main/java/ru/geekbrains/kamenev/model/NoteList.java" beforeDir="false" afterPath="$PROJECT_DIR$/homework2notes/src/main/java/ru/geekbrains/kamenev/model/NoteList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework2notes/src/main/java/ru/geekbrains/kamenev/model/Saver.java" beforeDir="false" afterPath="$PROJECT_DIR$/homework2notes/src/main/java/ru/geekbrains/kamenev/model/Saver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/homework2notes/src/main/java/ru/geekbrains/kamenev/view/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/homework2notes/src/main/java/ru/geekbrains/kamenev/view/Menu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -49,14 +48,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "/home/alexey/edu/Java/OOP_Sem_5",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -129,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681821000982</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Homework opt: todo edit note, saver">
+      <created>1681898511641</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1681898511641</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -148,7 +155,8 @@
     <MESSAGE value="2nd complete" />
     <MESSAGE value="3rd complete" />
     <MESSAGE value="Homework base complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework base complete" />
+    <MESSAGE value="Homework opt: todo edit note, saver" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework opt: todo edit note, saver" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

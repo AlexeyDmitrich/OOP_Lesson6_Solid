@@ -52,6 +52,10 @@ public class Note {
         this.body = body;
     }
 
+    public String getToday() {
+        return today.toString();
+    }
+
     @Override
     public String toString() {
         StringBuilder res = new StringBuilder();

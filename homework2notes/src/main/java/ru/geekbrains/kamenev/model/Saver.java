@@ -47,7 +47,7 @@ public class Saver implements Saveble {
     }
 
     @Override
-    public void saveAllLines(List<String> lines) {
+    public static void saveAllLines(List<String> lines) {
         try (FileWriter writer = new FileWriter(fileName, false)) {
             for (String line : lines) {
                 // запись всей строки

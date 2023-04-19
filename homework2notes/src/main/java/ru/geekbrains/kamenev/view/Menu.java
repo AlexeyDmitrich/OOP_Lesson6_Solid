@@ -41,6 +41,7 @@ public class Menu {
 
     public void create() {
         noter.addNote();
+
     }
 
     public void delete() {

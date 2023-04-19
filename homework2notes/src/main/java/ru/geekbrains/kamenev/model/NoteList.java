@@ -1,5 +1,7 @@
 package ru.geekbrains.kamenev.model;
 
+import ru.geekbrains.kamenev.exceptions.NotFoundException;
+
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -30,8 +32,7 @@ public class NoteList<T extends Note> implements Iterable<T>{
                 return note;
             }
         }
-        return null;
-        // TODO: 18.04.2023 вернуть исключение (создать исключение под это дело)
+        throw new NotFoundException();
     }
     public void addNote(T note){
         notes.add(note);

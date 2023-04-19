@@ -2,10 +2,17 @@ package ru.geekbrains.kamenev.controler;
 
 import ru.geekbrains.kamenev.model.Note;
 import ru.geekbrains.kamenev.model.NoteList;
+import ru.geekbrains.kamenev.model.NoteMapper;
+import ru.geekbrains.kamenev.model.Saver;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class Noter {
-    private Creator creator = new Creator();
-    private NoteList<Note> notes = new NoteList<>();
+    private final Creator creator = new Creator();
+    private final NoteList<Note> notes = new NoteList<>();
+    private final NoteMapper NoteMapper = new NoteMapper();
+
     public void addNote(){
         notes.addNote(createNote());
     }
@@ -31,5 +38,14 @@ public class Noter {
         for (Note note:notes) {
             System.out.println(note.getPreview());
         }
+    }
+
+    private void saveUser(List<Note> notes) {
+        List<String> lines = new ArrayList<>();
+
+        for (Note item : notes) {
+            lines.add(NoteMapper.map(item));
+        }
+        Saver.saveAllLines(lines);
     }
 }
