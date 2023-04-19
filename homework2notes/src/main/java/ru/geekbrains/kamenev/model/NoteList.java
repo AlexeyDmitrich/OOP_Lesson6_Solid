@@ -31,7 +31,7 @@ public class NoteList<T extends Note> implements Iterable<T>{
             }
         }
         return null;
-        // TODO: 18.04.2023 вернуть исключение
+        // TODO: 18.04.2023 вернуть исключение (создать исключение под это дело)
     }
     public void addNote(T note){
         notes.add(note);

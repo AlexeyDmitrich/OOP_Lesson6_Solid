@@ -34,7 +34,36 @@ public class Note {
         return body;
     }
 
+    public String getPreview(){
+        StringBuilder res = new StringBuilder();
+        res
+                .append(id)
+                .append("\n")
+                .append(today)
+                .append("\n")
+                .append(head)
+                .append("\n")
+                .append(body.substring(0,body.length()/5))
+                .append("\n");
+        return res.toString();
+    }
+
     public void setBody(String body) {
         this.body = body;
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder res = new StringBuilder();
+        res
+                .append(id)
+                .append("\n")
+                .append(today)
+                .append("\n")
+                .append(head)
+                .append("\n")
+                .append(body)
+                .append("\n");
+        return res.toString();
     }
 }

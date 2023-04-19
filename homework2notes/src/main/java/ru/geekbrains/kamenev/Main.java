@@ -1,5 +1,7 @@
 package ru.geekbrains.kamenev;
 
+import ru.geekbrains.kamenev.view.Menu;
+
 public class Main {
     public static void main(String[] args) {
         /*
@@ -10,5 +12,7 @@ public class Main {
         * записка содержит в себе как минимум 3 поля Id, заголовок и текст, можно добавить дату.
         * Хранение по вашему выбору, можно в текстовом файле (или каждая записка в одном файле, как вам удобнее).
         */
+        Menu menu = new Menu();
+        menu.run();
     }
 }

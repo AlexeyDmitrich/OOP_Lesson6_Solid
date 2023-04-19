@@ -5,17 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a32f586-4b68-47c5-9025-8c74db9bb25c" name="Changes" comment="Homework base complete">
-      <change afterPath="$PROJECT_DIR$/homework2notes/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework2notes/src/main/java/ru/geekbrains/kamenev/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework2notes/src/main/java/ru/geekbrains/kamenev/controler/Creator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework2notes/src/main/java/ru/geekbrains/kamenev/controler/Noter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework2notes/src/main/java/ru/geekbrains/kamenev/exceptions/EmptyDataException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework2notes/src/main/java/ru/geekbrains/kamenev/exceptions/IncorrectDataTypeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework2notes/src/main/java/ru/geekbrains/kamenev/model/Note.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework2notes/src/main/java/ru/geekbrains/kamenev/model/NoteList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework2notes/src/main/java/ru/geekbrains/kamenev/view/Commands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework2notes/src/main/java/ru/geekbrains/kamenev/view/Input.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework2notes/src/main/java/ru/geekbrains/kamenev/view/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework2notes/src/main/java/ru/geekbrains/kamenev/model/Saveble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework2notes/src/main/java/ru/geekbrains/kamenev/model/Saver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework2notes/src/main/java/ru/geekbrains/kamenev/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/homework2notes/src/main/java/ru/geekbrains/kamenev/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework2notes/src/main/java/ru/geekbrains/kamenev/controler/Noter.java" beforeDir="false" afterPath="$PROJECT_DIR$/homework2notes/src/main/java/ru/geekbrains/kamenev/controler/Noter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework2notes/src/main/java/ru/geekbrains/kamenev/model/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/homework2notes/src/main/java/ru/geekbrains/kamenev/model/Note.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework2notes/src/main/java/ru/geekbrains/kamenev/model/NoteList.java" beforeDir="false" afterPath="$PROJECT_DIR$/homework2notes/src/main/java/ru/geekbrains/kamenev/model/NoteList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework2notes/src/main/java/ru/geekbrains/kamenev/view/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/homework2notes/src/main/java/ru/geekbrains/kamenev/view/Menu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +22,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -44,19 +41,22 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2IXyjlpR5Wiiy0oCtofHfRCnxiw" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
